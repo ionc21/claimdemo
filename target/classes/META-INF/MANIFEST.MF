@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1474297536073
+Build-Jdk: 1.8.0_92
+Built-By: iciobanu
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Blueprint Route
+Bundle-SymbolicName: claimdemo
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.pgs.model;version="1.0.0.SNAPSHOT",com.pgs.service;u
+ ses:="com.pgs.model,javax.ws.rs";version="1.0.0.SNAPSHOT",com.pgs.trans
+ formers;uses:="com.pgs.model";version="1.0.0.SNAPSHOT"
+Import-Package: javax.ws.rs;version="[2.0,3)",org.osgi.service.blueprint
+ ;version="[1.0.0,2.0.0)"
+Tool: Bnd-1.50.0
